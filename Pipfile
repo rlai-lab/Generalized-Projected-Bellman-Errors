@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numba = "*"
+numpy = "*"
+matplotlib = "*"
+
+[dev-packages]
+flake8 = "*"
+commitizen = "*"
+pre-commit = "*"
+pipenv-setup = {extras = ["black"], version = "*"}
+
+[requires]
+python_version = "3.9"
